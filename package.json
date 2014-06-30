@@ -1,0 +1,32 @@
+{
+  "name": "docs-build",
+  "version": "0.0.0",
+  "description": "Intercom Docs templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/intercom/docs-build.git"
+  },
+  "keywords": [
+    "docs",
+    "intercom",
+    "html",
+    "css"
+  ],
+  "author": "Intercom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/intercom/docs-build/issues"
+  },
+  "homepage": "https://github.com/intercom/docs-build",
+  "devDependencies": {
+    "gulp": "~3.8.5",
+    "gulp-sass": "~0.7.2",
+    "gulp-watch": "~0.6.8",
+    "gulp-connect": "~2.0.5",
+    "gulp-less": "~1.2.4"
+  }
+}
