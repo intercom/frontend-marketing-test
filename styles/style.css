@@ -6556,7 +6556,7 @@ body:not(.button-style-default).button-corner-style-pill .opentable-block #OT_Fi
 }
 /* WARNING: Stylesheet from template.conf missing: marketing.less */
 body {
-  background: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/213/assets/marketing/squarespace/background_page.jpg') top center no-repeat;
+  background: url('/assets/marketing/squarespace/background_page.jpg') top center no-repeat;
   background-size: 100% auto;
   -webkit-font-smoothing: antialiased;
 }
@@ -6721,7 +6721,7 @@ body.collection-layout-careers .sqs-block-gallery {
   float: left;
   width: 170px;
   height: 40px;
-  background: transparent url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/235/assets/marketing/squarespace/logo-unscrolled-1x.png') 0 0 no-repeat;
+  background: transparent url('/assets/marketing/squarespace/logo-unscrolled-1x.png') 0 0 no-repeat;
   background-size: 170px 40px;
 }
 .fixed-header .fixed-header-links {
@@ -6771,7 +6771,7 @@ body.collection-layout-careers .sqs-block-gallery {
   box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 }
 .fixed-header.fixed-mode .fixed-header-logo {
-  background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/235/assets/marketing/squarespace/logo-fixed-1x.png');
+  background-image: url('/assets/marketing/squarespace/logo-fixed-1x.png');
 }
 .fixed-header.fixed-mode .fixed-header-link {
   color: #858585;
@@ -6816,7 +6816,7 @@ body.collection-layout-home .fixed-header {
   /* Reset to standard stuff for fixed view */
 }
 body.collection-layout-home .fixed-header .fixed-header-logo {
-  background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/235/assets/marketing/squarespace/logo-home-1x.png');
+  background-image: url('/assets/marketing/squarespace/logo-home-1x.png');
 }
 body.collection-layout-home .fixed-header .fixed-header-link {
   color: #fff;
@@ -6832,7 +6832,7 @@ body.collection-layout-home .fixed-header .fixed-header-signin:hover {
   border-color: #fff;
 }
 body.collection-layout-home .fixed-header.fixed-mode .fixed-header-logo {
-  background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/235/assets/marketing/squarespace/logo-fixed-1x.png');
+  background-image: url('/assets/marketing/squarespace/logo-fixed-1x.png');
 }
 body.collection-layout-home .fixed-header.fixed-mode .fixed-header-link {
   color: #858585;
@@ -6844,34 +6844,34 @@ body.collection-layout-home .fixed-header.fixed-mode .fixed-header-link:hover {
 /* Developer-specific styling */
 body.collection-layout-developer .fixed-header .fixed-header-logo,
 body.collection-layout-api_landing .fixed-header .fixed-header-logo {
-  background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/235/assets/marketing/squarespace/logo-developer-1x.png');
+  background-image: url('/assets/marketing/squarespace/logo-developer-1x.png');
   width: 312px;
   background-size: 312px 40px;
 }
 body.collection-layout-developer .fixed-header.fixed-mode .fixed-header-logo,
 body.collection-layout-api_landing .fixed-header.fixed-mode .fixed-header-logo {
-  background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/235/assets/marketing/squarespace/logo-developer-1x.png');
+  background-image: url('/assets/marketing/squarespace/logo-developer-1x.png');
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .fixed-header .fixed-header-logo {
-    background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/235/assets/marketing/squarespace/logo-unscrolled-2x.png');
+    background-image: url('/assets/marketing/squarespace/logo-unscrolled-2x.png');
   }
   body.collection-layout-home .fixed-header .fixed-header-logo {
-    background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/235/assets/marketing/squarespace/logo-home-2x.png');
+    background-image: url('/assets/marketing/squarespace/logo-home-2x.png');
   }
   body .fixed-header.fixed-mode .fixed-header-logo,
   body.collection-layout-home .fixed-header.fixed-mode .fixed-header-logo {
-    background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/235/assets/marketing/squarespace/logo-fixed-2x.png');
+    background-image: url('/assets/marketing/squarespace/logo-fixed-2x.png');
   }
   body.collection-layout-developer .fixed-header .fixed-header-logo,
   body.collection-layout-api_landing .fixed-header .fixed-header-logo,
   body.collection-layout-developer .fixed-header.fixed-mode .fixed-header-logo,
   body.collection-layout-api_landing .fixed-header.fixed-mode .fixed-header-logo {
-    background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/235/assets/marketing/squarespace/logo-developer-2x.png');
+    background-image: url('/assets/marketing/squarespace/logo-developer-2x.png');
   }
 }
 .home-hero {
-  background: #4d9de0 url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/214/assets/marketing/squarespace/speech-bubbles-1x.png) repeat 50% 0;
+  background: #4d9de0 url(/assets/marketing/squarespace/speech-bubbles-1x.png) repeat 50% 0;
   background-size: 1680px 896px;
   padding: 137px 0 0;
   position: relative;
@@ -6915,7 +6915,7 @@ body.collection-layout-api_landing .fixed-header.fixed-mode .fixed-header-logo {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .home-hero {
-    background-image: url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/214/assets/marketing/squarespace/speech-bubbles-2x.png);
+    background-image: url(/assets/marketing/squarespace/speech-bubbles-2x.png);
   }
 }
 .customer-logos {
@@ -6978,7 +6978,7 @@ body.collection-layout-api_landing .fixed-header.fixed-mode .fixed-header-logo {
 }
 .tour-section {
   padding: 79px 0 0;
-  background: #fff url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/223/assets/marketing/squarespace/border.png) no-repeat 50% 0;
+  background: #fff url(/assets/marketing/squarespace/border.png) no-repeat 50% 0;
   /* Default in this section */
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
@@ -7036,19 +7036,19 @@ body.collection-layout-api_landing .fixed-header.fixed-mode .fixed-header-logo {
   padding-bottom: 43.5268%;
 }
 #Tour01 .sqs-layout {
-  background: #fff url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/223/assets/marketing/squarespace/screens/01.jpg) no-repeat 50% bottom;
+  background: #fff url(/assets/marketing/squarespace/screens/01.jpg) no-repeat 50% bottom;
   background-size: 100% auto;
 }
 #Tour02 .sqs-layout {
-  background: #fff url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/223/assets/marketing/squarespace/screens/02.jpg) no-repeat 50% bottom;
+  background: #fff url(/assets/marketing/squarespace/screens/02.jpg) no-repeat 50% bottom;
   background-size: 100% auto;
 }
 #Tour03 .sqs-layout {
-  background: #fff url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/223/assets/marketing/squarespace/screens/03.jpg) no-repeat 50% bottom;
+  background: #fff url(/assets/marketing/squarespace/screens/03.jpg) no-repeat 50% bottom;
   background-size: 100% auto;
 }
 #Tour04 .sqs-layout {
-  background: #fff url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/223/assets/marketing/squarespace/screens/04.jpg) no-repeat 50% bottom;
+  background: #fff url(/assets/marketing/squarespace/screens/04.jpg) no-repeat 50% bottom;
   background-size: 100% auto;
 }
 .customer-quotes {
@@ -7073,7 +7073,7 @@ body.collection-layout-api_landing .fixed-header.fixed-mode .fixed-header-logo {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 0 0 122px;
-  background: transparent url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/140/assets/marketing/squarespace/customer-quotes-marks-1x.png) no-repeat 4px 0;
+  background: transparent url(/assets/marketing/squarespace/customer-quotes-marks-1x.png) no-repeat 4px 0;
   background-size: 122px 31px;
 }
 .customer-quotes .customer-quote .customer-quote-image {
@@ -7127,7 +7127,7 @@ body.collection-layout-api_landing .fixed-header.fixed-mode .fixed-header-logo {
   color: transparent;
   width: 18px;
   height: 20px;
-  background: transparent url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/140/assets/marketing/squarespace/customer-quotes-indicator-1x.png) no-repeat 0 0;
+  background: transparent url(/assets/marketing/squarespace/customer-quotes-indicator-1x.png) no-repeat 0 0;
   background-size: 18px 40px;
   cursor: pointer;
 }
@@ -7137,10 +7137,10 @@ body.collection-layout-api_landing .fixed-header.fixed-mode .fixed-header-logo {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .customer-quotes .customer-quote {
-    background-image: url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/140/assets/marketing/squarespace/customer-quotes-marks-2x.png);
+    background-image: url(/assets/marketing/squarespace/customer-quotes-marks-2x.png);
   }
   .customer-quotes .customer-quotes-indicator {
-    background-image: url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/140/assets/marketing/squarespace/customer-quotes-indicator-2x.png);
+    background-image: url(/assets/marketing/squarespace/customer-quotes-indicator-2x.png);
   }
 }
 .signup-banner {
@@ -7537,7 +7537,7 @@ body.collection-layout-pricing {
   height: 13px;
   margin-left: 6px;
   vertical-align: middle;
-  background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/232/assets/marketing/squarespace/pricing-tooltip.png');
+  background-image: url('/assets/marketing/squarespace/pricing-tooltip.png');
 }
 .pricing-block ol.plans .features ul {
   padding: 0 30px;
@@ -7577,7 +7577,7 @@ body.collection-layout-pricing {
 .pricing-block ol.plans .features .feature_list li {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 400;
-  background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/232/assets/marketing/squarespace/pricing-feature-list-tick-icon.png');
+  background-image: url('/assets/marketing/squarespace/pricing-feature-list-tick-icon.png');
   background-repeat: no-repeat;
   min-height: 21px;
   padding-top: 4px;
@@ -7591,7 +7591,7 @@ body.collection-layout-pricing {
   visibility: hidden;
 }
 .pricing-block ol.plans .features .feature_list li.negative_include_icon {
-  background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/232/assets/marketing/squarespace/pricing-feature-list-negative-include-icon.png');
+  background-image: url('/assets/marketing/squarespace/pricing-feature-list-negative-include-icon.png');
 }
 .pricing-block ol.plans .features .feature_list li .target_response_time {
   font-size: 11px;
@@ -7605,7 +7605,7 @@ body.collection-layout-pricing {
   font-size: 8px;
 }
 .pricing-block ol.plans .features .feature_list.coming_soon li {
-  background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/232/assets/marketing/squarespace/pricing-feature-list-coming-soon-tick-icon.png');
+  background-image: url('/assets/marketing/squarespace/pricing-feature-list-coming-soon-tick-icon.png');
   min-height: 20px;
   padding-top: 4px;
 }
@@ -7635,7 +7635,7 @@ body.collection-layout-pricing {
   color: #1867c3;
 }
 .contact-us-form {
-  background: #eef4f5 url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/228/assets/marketing/squarespace/contact-us-bg-1x.png) repeat 50% 0;
+  background: #eef4f5 url(/assets/marketing/squarespace/contact-us-bg-1x.png) repeat 50% 0;
   background-size: 1680px 755px;
   padding: 160px 0 65px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -7715,7 +7715,7 @@ body.collection-layout-pricing {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .contact-us-form {
-    background-image: url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/228/assets/marketing/squarespace/contact-us-bg-2x.png);
+    background-image: url(/assets/marketing/squarespace/contact-us-bg-2x.png);
   }
 }
 .maps {
@@ -7821,7 +7821,7 @@ body.collection-layout-pricing {
   margin: 0;
   display: block;
   list-style-type: none;
-  background: transparent url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/127/assets/marketing/squarespace/investors.png') no-repeat 0 0;
+  background: transparent url('/assets/marketing/squarespace/investors.png') no-repeat 0 0;
 }
 .company-block .investors .investors_list li {
   display: none;
@@ -8028,7 +8028,7 @@ body.collection-layout-pricing {
   width: 16px;
   height: 16px;
   content: " ";
-  background: transparent url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/239/assets/marketing/squarespace/link-icon-1x.png) no-repeat 0 0;
+  background: transparent url(/assets/marketing/squarespace/link-icon-1x.png) no-repeat 0 0;
   background-size: 16px 16px;
 }
 .api-landing .sqs-col-12 .sqs-row .sqs-col-5 {
@@ -8051,12 +8051,12 @@ body.collection-layout-pricing {
   color: #727272;
 }
 .collection-layout-api_landing {
-  background: #f0f6fb url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/239/assets/marketing/squarespace/api-bg.jpg) repeat-x 50% 0;
+  background: #f0f6fb url(/assets/marketing/squarespace/api-bg.jpg) repeat-x 50% 0;
   background-size: 3360px 799px;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .api-landing a:after {
-    background-image: url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/239/assets/marketing/squarespace/link-icon-2x.png);
+    background-image: url(/assets/marketing/squarespace/link-icon-2x.png);
   }
 }
 .footer {
@@ -8119,14 +8119,14 @@ body.collection-layout-pricing {
   color: transparent;
   width: 32px;
   height: 32px;
-  background: transparent url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/137/assets/marketing/squarespace/footer-logo-1x.png') 0 0 no-repeat;
+  background: transparent url('/assets/marketing/squarespace/footer-logo-1x.png') 0 0 no-repeat;
   background-size: 32px 32px;
   display: block;
   margin: 0 auto;
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   .footer .footer-logo-wrapper .footer-logo {
-    background-image: url('https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/137/assets/marketing/squarespace/footer-logo-2x.png');
+    background-image: url('/assets/marketing/squarespace/footer-logo-2x.png');
   }
 }
 @media only screen and (max-width: 1240px) {
@@ -8397,7 +8397,7 @@ body.collection-layout-pricing {
 .fancybox-close,
 .fancybox-prev span,
 .fancybox-next span {
-  background-image: url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/9/assets/marketing/fancybox_sprite-i.png);
+  background-image: url(/assets/marketing/fancybox_sprite-i.png);
 }
 #fancybox-loading {
   position: fixed;
@@ -8413,7 +8413,7 @@ body.collection-layout-pricing {
 #fancybox-loading div {
   width: 44px;
   height: 44px;
-  background: url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/9/assets/marketing/fancybox_loading.gif) center center no-repeat;
+  background: url(/assets/marketing/fancybox_loading.gif) center center no-repeat;
 }
 .fancybox-close {
   position: absolute;
@@ -8431,7 +8431,7 @@ body.collection-layout-pricing {
   height: 100%;
   cursor: pointer;
   text-decoration: none;
-  background: transparent url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/9/assets/marketing/blank.gif);
+  background: transparent url(/assets/marketing/blank.gif);
   /* helps IE */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 8040;
@@ -8483,7 +8483,7 @@ body.collection-layout-pricing {
   overflow: hidden;
   display: none;
   z-index: 8010;
-  background: url(https://static.squarespace.com/static/ta/535fdd0ce4b0e268e3ecdd97/9/assets/marketing/fancybox_overlay.png);
+  background: url(/assets/marketing/fancybox_overlay.png);
 }
 .fancybox-overlay-fixed {
   position: fixed;
